@@ -4,7 +4,8 @@ const {table} = require('table')
 const _ = require('lodash')
 require('colors')
 
-const rootPath = '/mnt/c/projects'
+
+const rootPath = process.argv[2] ? process.argv[2] : '/mnt/c/projects'
 
 const modulesDirList = execSync('find ' + rootPath + ' -maxdepth 2 -mindepth 1 | grep node_modules').toString().split('\n')
 

@@ -6,7 +6,7 @@ Scan your projects directory for `node_modules` directores and show a table with
 * Run `npm i`
 
 ## Use
-* Run `node main.js`
+* Run `node main.js [path to root directory]`
 
 ![Screenshot](https://github.com/ThePaavero/node-modules-size-report/blob/master/screenshot.png)
 
