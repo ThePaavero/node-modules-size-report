@@ -1,4 +1,4 @@
-#node_modules size list
+# `node_modules` size listing generator
 Scan your project directory for `node_modules` directores and show a table with the directories sorted by the size of the `node_modules` directory's size.
 
 ## Install
