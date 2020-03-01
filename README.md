@@ -11,4 +11,4 @@ Scan your projects directory for `node_modules` directores and show a table with
 ![Screenshot](https://github.com/ThePaavero/node-modules-size-report/blob/master/screenshot.png)
 
 ## Todos
-* [ ] Dynamic root directory (either as argument or make the command global, use directory where command is called from)
+* [x] Dynamic root directory (either as argument or make the command global, use directory where command is called from)
