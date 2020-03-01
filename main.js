@@ -8,7 +8,7 @@ const rootPath = '/mnt/c/projects'
 
 const modulesDirList = execSync('find ' + rootPath + ' -maxdepth 2 -mindepth 1 | grep node_modules').toString().split('\n')
 
-console.log(`Finding node_modules dirs and calculate their size...`.green)
+console.log(`Finding node_modules dirs and calculating their size...`.green)
 console.log('This might take a while...'.white)
 
 const getDirsWithSizes = async () => {
