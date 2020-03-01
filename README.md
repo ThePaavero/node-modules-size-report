@@ -4,6 +4,8 @@ Scan your projects directory for `node_modules` directores and show a table with
 ## Install
 * Clone or download the repo
 * Run `npm i`
+
+## Use
 * Run `node main.js`
 
 ![Screenshot](https://github.com/ThePaavero/node-modules-size-report/blob/master/screenshot.png)
